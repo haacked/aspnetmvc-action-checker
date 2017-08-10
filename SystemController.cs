@@ -1,3 +1,15 @@
+/* Copyright Phil Haack
+ *
+ * Licensed under the MIT License: https://github.com/Haacked/aspnetmvc-action-checker/blob/master/LICENSE
+ */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Web.Mvc;
+
 public class SystemController : Controller
 {
     protected override void OnActionExecuting(ActionExecutingContext filterContext)
